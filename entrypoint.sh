@@ -17,8 +17,8 @@ if [ -z "$AWS_SECRET_ACCESS_KEY" ]; then
   exit 1
 fi
 
-if [ -z "$DISTRIBUTION_ID" ]; then
-  echo "DISTRIBUTION_ID is not set. Quitting."
+if [ -z "$AWS_DISTRIBUTION_ID" ]; then
+  echo "AWS_DISTRIBUTION_ID is not set. Quitting."
   exit 1
 fi
 
